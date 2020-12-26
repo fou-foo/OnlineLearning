@@ -32,6 +32,10 @@ ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     'polls.apps.PollsConfig',
+    'home.apps.HomeConfig', #agregamos la app de home 
+    'hello.apps.HelloConfig', 
+    'autos.apps.AutosConfig', 
+    'cats.apps.CatsConfig', 
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

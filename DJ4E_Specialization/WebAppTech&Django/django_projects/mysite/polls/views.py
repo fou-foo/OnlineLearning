@@ -9,7 +9,7 @@ from .models import Question, Choice
 # Create your views here.
 # la que pide el curso 
 def owner(request):
-        return HttpResponse("Hello, world. 38a8e18d is the polls owner.")
+        return HttpResponse("Hello, world. d6b6536a is the polls owner.")
 
 class IndexView(generic.ListView):
     template_name = 'polls/index.html'
