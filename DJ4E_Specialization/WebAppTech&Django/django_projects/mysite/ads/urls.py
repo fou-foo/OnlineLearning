@@ -24,5 +24,3 @@ urlpatterns = [
     path('ad/<int:pk>/unfavorite',
         views.DeleteFavoriteView.as_view(), name='ad_unfavorite'),
 ]
-
-# We use reverse_lazy in urls.py to delay looking up the view until all the paths are defined
